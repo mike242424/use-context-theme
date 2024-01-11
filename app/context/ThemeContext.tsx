@@ -38,7 +38,6 @@ export const useThemeContext = () => {
   if (!context) {
     throw new Error('Needs to be inside ThemeContext');
   }
-
   return context;
 };
 
